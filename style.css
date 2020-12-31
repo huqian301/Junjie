@@ -30,6 +30,10 @@ a {
   width: 100%;
 } */
 
+
+
+
+/* --------------------------------Frist Look------------------------------ */
 .main-background{
     background-image: url("./img/bg3.jpg");
     background-position: center center;
@@ -100,4 +104,120 @@ a {
 	color: #fff;
 	font-size: 20px;
 	/* transform: rotate(-45deg); */
+}
+
+/* ---------------------------Navigation Bar------------------------------- */
+nav{
+    text-transform: uppercase;
+    /* border-bottom: 1px solid rgb(84, 84, 88);  */
+}
+nav a{
+    color:#060606;
+    transition: all .5s ease;
+}
+
+nav li{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px;
+    transition: all .5s ease;
+}
+
+nav a:hover {
+	color: #94aeab;
+	cursor: pointer;
+}
+
+.sticky{
+    position: fixed;;
+    top: 0;
+    width:100%;
+    z-index: 100;
+}
+
+
+/* -------------------------------About me--------------------------------- */
+
+.aboutme{
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+    margin:10px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+
+}
+ .side-margin{
+     margin-left:5%;
+     margin-right:5%;
+     margin-bottom: 10%;
+ }
+
+.headshot img{
+    width: 90%;
+    height: 50%;
+    border-radius: 125px;
+   /* margin: 10%; */
+   /* margin-left:10%; */
+   /* margin-bottom: 20%; */
+}
+.row{
+    margin-right: 0em;
+}
+
+.paragraph {
+    margin-top: 2%;;
+    margin-bottom:5%
+}
+
+.paragraph h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.paragraph p{
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: .75px;
+    font-size: 15px;
+}
+
+.btn{
+    border: 0;
+	border-bottom: 3px solid;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 28px;
+}
+.btn-lg {
+	padding: 14px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn-info {
+	background-color: #2ba7d8;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-info:hover {`
+	background-color: #377a94;
+	border-color: #4aa0c2;
+}
+
+.btn-primary {
+	background-color: #1aa574;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-primary:hover {
+	background-color: #3c9174;
+	border-color: #4eb28f;
+}
+
+.btn:focus, .btn:active {
+	outline: 0;
+	box-shadow: none;
 }
