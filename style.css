@@ -31,7 +31,9 @@ a {
 } */
 
 
-
+ul {
+	list-style: none;
+}
 
 /* --------------------------------Frist Look------------------------------ */
 .main-background{
@@ -109,6 +111,7 @@ a {
 /* ---------------------------Navigation Bar------------------------------- */
 nav{
     text-transform: uppercase;
+    /* background-color:	#ededed; */
     /* border-bottom: 1px solid rgb(84, 84, 88);  */
 }
 nav a{
@@ -138,7 +141,7 @@ nav a:hover {
 
 /* -------------------------------About me--------------------------------- */
 
-.aboutme{
+.title{
     text-align: center;
     padding-top: 70px;
     text-transform: uppercase;
@@ -149,8 +152,7 @@ nav a:hover {
 
 }
  .side-margin{
-     margin-left:5%;
-     margin-right:5%;
+
      margin-bottom: 10%;
  }
 
@@ -221,3 +223,150 @@ nav a:hover {
 	outline: 0;
 	box-shadow: none;
 }
+
+
+/* -----------------------Journey--------------------------- */
+
+
+.col-md-12{
+    padding:0;
+}
+
+.row {
+    margin-bottom: 60px;
+    margin:5%;
+}
+
+
+.resume-section-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.resume-section {
+	position: relative;
+}
+
+.dot-timeline {
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	background-color: gray;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.timeline-line {
+	width: 3px;
+	height: 100%;
+	background-color: gray;
+	position: absolute;
+    left: calc(50% - 1.5px);
+    top: 0;
+    z-index: -1;
+}
+
+.posted-date {
+	background-color: white;
+	z-index: 2;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 1;
+	position: absolute;
+    left: calc(50% - 50px);
+    top: calc(30% - 10px);
+}
+
+.posted-date span {
+	font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    display: block;
+    
+}
+
+.timeline-panel {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.timeline-arrow {
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	border-top: 5px solid #eee;
+	border-right: 5px solid #eee;
+	position: absolute;
+	right: -14.14px;
+	top: 22%;
+	background-color: #eee;
+	transition: all .5s ease;
+}
+
+.rotated {
+	transform: rotate(225deg);
+	left: -14.14px;
+
+}
+
+.timeline-content {
+	border: 5px solid #eee;
+	padding: 24px;
+	width: 43%;
+	position: relative;
+	background-color: #eee;
+	border-radius: 10px;
+    transition: all .5s ease;
+    text-align: center;
+}
+
+.timeline-content:hover, .timeline-content:hover .timeline-arrow {
+	background-color: #94aeab;
+	border-color: #94aeab;
+}
+
+.timeline-content:hover a {
+	color: #eee;
+	transition: all .5s ease;
+}
+
+.timeline-heading h3 {
+	font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.timeline-heading span {
+	display: block;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.timeline-heading a {
+	text-decoration: none;
+}
+
+.timeline-body p {
+	margin: 0 0 10px;
+	line-height: 28px;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: .75px;
+}
+
+.timeline {
+	padding-left: 0;
+}
+
+.inverted {
+	right: 0;
+	align-self: flex-end;
+}
+
+
