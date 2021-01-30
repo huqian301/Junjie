@@ -1,7 +1,7 @@
 
 let offsetNav = $('nav').offset().top;
 let offsetAbout = $('#about').offset().top;
-let offsetJourney = $('#resume').offset().top;
+let offsetJourney = $('#journey').offset().top;
 let offsetSkills = $('#skills').offset().top;
 let offsetProjects = $('#work').offset().top;
 let offsetContact = $('#contact').offset().top;
@@ -147,9 +147,6 @@ $('.timeseries-group').click(function() {
 	$('.project').hide();
 	$('.timeseries').show('slow');
 })
-
-
-
 
 
 

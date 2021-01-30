@@ -29,7 +29,10 @@ a {
   left: 0;
   width: 100%;
 } */
-
+body{
+	background-color:#e7e7e7
+	;
+}
 
 ul {
 	list-style: none;
@@ -111,7 +114,7 @@ ul {
 /* ---------------------------Navigation Bar------------------------------- */
 nav{
     text-transform: uppercase;
-    background-color:#f0f0f0;
+    background-color:#e7e7e7;
     /* border-bottom: 1px solid rgb(84, 84, 88);  */
 }
 nav a{
@@ -143,7 +146,7 @@ nav a:hover {
 
 .title{
     text-align: center;
-    padding-top: 70px;
+    padding-top: 90px;
     text-transform: uppercase;
     margin:10px;
     font-weight: 700;
@@ -164,8 +167,11 @@ nav a:hover {
    /* margin-left:10%; */
    /* margin-bottom: 20%; */
 }
-.row{
-    margin-right: 0em;
+.side-margin .row{
+    margin-bottom: 60px;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 2%;
 }
 
 .paragraph {
@@ -232,9 +238,11 @@ nav a:hover {
     padding:0;
 }
 
-.row {
+#journey .row {
     margin-bottom: 60px;
-    margin:5%;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 3%;
 }
 
 
@@ -267,7 +275,7 @@ nav a:hover {
 }
 
 .posted-date {
-	background-color: white;
+	background-color: #e7e7e7;
 	z-index: 2;
 	width: 100px;
 	margin: 0 auto;
@@ -298,12 +306,12 @@ nav a:hover {
 	width: 20px;
 	height: 20px;
 	transform: rotate(45deg);
-	border-top: 5px solid #eee;
-	border-right: 5px solid #eee;
+	border-top: 5px solid #c8c8c8;
+	border-right: 5px solid #c8c8c8;
 	position: absolute;
 	right: -14.14px;
 	top: 22%;
-	background-color: #eee;
+	background-color: #d2d2d2;
 	transition: all .5s ease;
 }
 
@@ -314,11 +322,11 @@ nav a:hover {
 }
 
 .timeline-content {
-	border: 5px solid #eee;
+	border: 5px solid #c8c8c8;
 	padding: 24px;
 	width: 43%;
 	position: relative;
-	background-color: #eee;
+	background-color: #d2d2d2;
 	border-radius: 10px;
     transition: all .5s ease;
     text-align: center;
@@ -501,8 +509,7 @@ nav a:hover {
 
 .b-skills
 {
-	border-top: 1px solid #f9f9f9;
-	padding-top: 46px;
+
 	text-align: center;
 }
 /* .b-skills .container{
@@ -518,6 +525,7 @@ nav a:hover {
 	max-width: 150px;
 	width: 100%;
 	margin-bottom: 30px;
+	margin-left: 15%;
 	color: #555;
 }
 
@@ -528,7 +536,13 @@ nav a:hover {
 	height: 0;
 	padding-top: 100%;
 	margin-bottom: 27px;
+}
 
+#skills .row {
+    margin-bottom: 60px;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 8%;
 }
 
 .skill-item .chart,

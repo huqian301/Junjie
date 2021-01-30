@@ -17,30 +17,35 @@ function run()
 ================================================== */
 function _chart ()
 {
-	$('.b-skills').appear(function() {
+	$('#skills').appear(function() {
 		setTimeout(function() {
 			$('.chart').easyPieChart({
 				easing: 'easeOutElastic',
 				delay: 3000,
 				barColor: '#369670',
-				trackColor: '#fff',
+				trackColor: '#e7e7e7',
 				scaleColor: false,
 				lineWidth: 21,
 				trackWidth: 21,
 				size: 200,
-				lineCap: 'round',
+				lineCap: 'round', 
+				animate:4500,
+				onStart:function(from, to){
+					return;
+				},
 				onStep: function(from, to, percent) {
 					this.el.children[0].innerHTML = Math.round(percent);
 				}
 			});
-		}, 150);
+		}, 300);
 	});
 };
  
 
+
 $(document).ready(function() {
   
 	run(_chart);
-  
+
     
 });
