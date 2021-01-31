@@ -19,13 +19,13 @@
   <link rel="stylesheet" href="style.css">
    <title>Junjie Lei</title>
 
-  <!-- <link rel="icon" href="./img/cloud.ico"> -->
-  <link rel="icon" href="./img/sf.ico">
+  <link rel="icon" href="./img/cloud.ico">
+  <!-- <link rel="icon" href="./img/sf.ico"> -->
   <!-- <link rel="icon" href="./img/leaf.ico"> -->
 </head>
 
 <body>
-  <!-- First Look -->
+  <!-- Main Page -->
   <section>
     <div class="main-background">
       <div class="info">
@@ -463,12 +463,141 @@
 
 
 
-  <section id="projects">
+  <!-- <section id="projects">
     <div class="container">
       <h3 class="title">Projects</h3>
       <hr style="width:40%;margin-top:25px;">
     </div>
-  </section>
+
+
+  </section> -->
+
+
+
+
+
+  <section id="projects">
+    
+    <div class="container">
+      <h3 class="title">Projects</h3>
+      <hr style="width:40%;margin-top:25px;">
+        <ul id="filter">
+            <li class="all-group active-filter">
+                <a>All</a>
+                <div class="diamond-timeline" style="display: block;"></div>
+            </li>
+            <li class="econometrics-group">
+                <a>Econometrics</a>
+                <div class="diamond-timeline hidden" style="display: none;"></div>
+            </li>
+            <li class="geospatial-group">
+                <a>Geospatial Analysis</a>
+                <div class="diamond-timeline hidden"></div>
+            </li>
+            <li class="kmeans-group">
+                <a>Kmeans</a>
+                <div class="diamond-timeline hidden"></div>
+            </li>
+            <li class="pca-group">
+                <a>PCA</a>
+                <div class="diamond-timeline hidden"></div>
+            </li>
+            <li class="regularization-group">
+                <a>Regularization</a>
+                <div class="diamond-timeline hidden"></div>
+            </li>
+            <li class="timeseries-group">
+                <a>Time Series Analysis</a>
+                <div class="diamond-timeline hidden"></div>
+            </li>
+        </ul>
+
+        <div class="row">
+            <div class="project col-lg-3 col-md-4 col-sm-6 geospatial" style="display: block;">
+                <img src="img/bg.jpg" class="project-image">
+                <div class="project-overlay"></div>
+                <div class="project-links">
+                    <!-- Insert link to see picture in gallery view -->
+                    <a href="#"><div class="social links">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    </div></a>
+                </div>
+                <div class="project-info">
+                    <h5>Description</h5>
+                </div>
+            </div>
+            <div class="project col-lg-3 col-md-4 col-sm-6 timeseries" style="display: block;">
+                <img src="img/bg.jpg" class="project-image">
+                <div class="project-overlay"></div>
+                <div class="project-links">
+                    <!-- Insert link to see picture in gallery view -->
+                    <a href="#"><div class="social links">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    </div></a>
+                </div>
+                <div class="project-info">
+                    <h5>Description</h5>
+                </div>
+            </div>
+            <div class="project col-lg-3 col-md-4 col-sm-6 regularization pca kmeans" style="display: block;">
+                <img src="img/bg.jpg" class="project-image">
+                <div class="project-overlay"></div>
+                <div class="project-links">
+                    <!-- Insert link to see picture in gallery view -->
+                    <a href=""><div class="social links">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    </div></a>
+                </div>
+                <div class="project-info">
+                    <h5>Description </h5>
+                </div>
+            </div>
+            <div class="project col-lg-3 col-md-4 col-sm-6 regularization" style="display: block;">
+                <img src="img/bg.jpg" class="project-image">
+                <div class="project-overlay"></div>
+                <div class="project-links">
+                    <!-- Insert link to see picture in gallery view -->
+                    <a href=""><div class="social links">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    </div></a>
+                </div>
+                <div class="project-info">
+                    <h5>Description</h5>
+                </div>
+            </div>
+            <div class="project col-lg-3 col-md-4 col-sm-6" style="display: block;">
+                <img src="img/bg.jpg" class="project-image">
+                <div class="project-overlay"></div>
+                <div class="project-links">
+                    <!-- Insert link to see picture in gallery view -->
+                    <a href=""><div class="social links">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    </div></a>
+                </div>
+                <div class="project-info">
+                    <h5>Description</h5>
+                </div>
+            </div>
+            <div class="project col-lg-3 col-md-4 col-sm-6 econometrics" style="display: block;">
+                <img src="img/bg.jpg" class="project-image">
+                <div class="project-overlay"></div>
+                <div class="project-links">
+                    <!-- Insert link to see picture in gallery view -->
+                    <a href=""><div class="social links">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    </div></a>
+                </div>
+                <div class="project-info">
+                    <h5>Description</h5>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</section>
+
+
 
   <!-- <div class="wave-container">
       <svg class="wave-top" width="100" viewBox="0 0 1200 250">
@@ -482,6 +611,10 @@
   <script src="./js/jquery.easypiechart.min.js"></script> 
   <script src="./js/chart.js"></script> 
   <script src="snap.svg-min.js"></script>
+  <script src="./js/projects.js"></script>
+  <script src="./js/jquery.visible.js"></script>
+
+
 
 </body>
 
