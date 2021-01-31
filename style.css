@@ -473,6 +473,7 @@ nav a:hover {
 #projects .container {
 	min-height: 667px;
 }
+#projects 
 
 
 #filter {
@@ -611,3 +612,9 @@ nav a:hover {
 	opacity: 1;
 }
 
+
+/* footer */
+
+.foot{
+	margin:10%;
+}
