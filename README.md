@@ -1,6 +1,6 @@
 <div align="center">
 
-# Personal Website
+# Junjie's Personal Website
 Deployed Website: https://huqian301.github.io/Junjie/ 
 
 Github Repository: https://github.com/huqian301/Junjie 
